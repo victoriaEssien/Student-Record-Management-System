@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+                            /* back button */
+.nav-btn{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+                            /* body */
+.home-body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.8)), url("../images/studying.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+                        /* Home Page */
+.center-home-page-welcome{
+    margin-top: 60px;
+}
+
+.home-page-welcome {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.home-page-marquee{
+    color: #FFFFFF;
+}
+
+.nct-home{
+    margin-top:-50px;
+    background-color: #FFFFFF;
+    width: 150px;
+    padding: 120px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; */
+}
+
+.nct-role{
+    list-style-type: none;
+}
+
+.nct-role li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.nct-role .student-role:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.nct-role .faculty-role:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+
+                        /* Registration Form */
+
+.reg-form{
+    margin-top: -60px;
+    background-color: #FFFFFF;
+    width: 200px;
+    padding: 120px;
+    padding-left: 80px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.369);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+input[type="text"],[type="email"],[type="tel"],[type="password"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+}
+
+input[type="checkbox"] {
+    float: left;
+}
+
+label{
+    float: left;
+    color: #FFFFFF;
+}
+
+value{
+    color: #FFFFFF;
+}
+
+.reg-btn{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+	padding: 10px 90px;
+	font-size: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.reg-btn:hover{
+    background-color: #001D6E;
+    border: 1px solid #001D6E;
+    transition: 1s;
+}
+
+.main-reg-form{
+    margin-top: -50px;
+}
+
+.feedback{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.signup-feedback{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px
+}
+
+.search-container{
+    text-align: center;
+
+}
+.search-btn{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+	padding: 10px 90px;
+	font-size: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color: #001D6E;
+    border: 1px solid #001D6E;
+    transition: 1s;
+}
+
+table{
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+td{
+    padding: 10px;
+}
+
+table, tr, th, td {
+    color: #FFFFFF;
+}
+
+.table{
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.td{
+    padding: 10px;
+}
+
+.table, .tr, .th, .td {
+    color: #FFFFFF;
+}
+
+
+
+
+/* Footer */
+blockquote{
+    color: #FFFFFF;
+}
